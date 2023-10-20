@@ -1,0 +1,1682 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Annots [
+<</Type /Annot /Subtype /Link /Rect [56.6929133858267775 792.5570866141731585 242.4529133858268324 783.3570866141732267] /Border [0 0 0] /A <</S /URI /URI (https://www.compayz.com/?utm_source=download-gpt) >> >>
+]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 3847
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Chat-GPT PDF by CompayZ - www.compayz.com) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 771.0238582677164914 Td
+(Usuário: User) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 756.8506299212598378 Td
+(1 / 1) Tj
+T* (man gcc) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 742.6774015748030706 Td
+(Data: Friday, October 6, 2023 at 11:57:21 AM - \(Africa/Cairo\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 728.5041732283464171 Td
+(URL: https://chat.openai.com/c/18056e62-2493-4a4a-9072-50bab4e81d8f) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 660.4726771653542983 Td
+(It seems you're referencing the  "man"  page for the GNU Compiler Collection \(GCC\). I cannot) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 637.7955118110235162 Td
+(directly display the  "man"  page content as it appears in your terminal, but I can provide an) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 615.1183464566928478 Td
+(overview of the  "gcc"  command.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 569.7640157480313974 Td
+( "gcc"  is the GNU Compiler Collection, which includes front ends for C, C++, Objective-C,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 547.086850393700729 Td
+(Fortran, Ada, and Go, among others. The most common usage of  "gcc"  is for compiling C and) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 524.4096850393700606 Td
+(C++ programs.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 479.0553543307086102 Td
+(Basic Syntax:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 433.7010236220471597 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 411.0238582677164914 Td
+( "gcc [options] file..." ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 365.6695275590550409 Td
+(Basic Options:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 320.3151968503935905 Td
+( *  "-o <filename>" : Specifies the name for the output file.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 297.6380314960629221 Td
+( *  "-c" : Compile or assemble the source files, but do not link.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 274.9608661417322537 Td
+( *  "-S" : Stop after the stage of compilation proper; do not assemble.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 252.2837007874014716 Td
+( *  "-E" : Stop after the preprocessing stage; do not compile, assemble or link.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 229.6065354330708033 Td
+( *  "-I <directory>" : Add the directory to the list of directories to be searched for header files.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 206.9293700787401349 Td
+( *  "-l<library>" : Link with the specified library.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 184.2522047244093528 Td
+( *  "-L<directory>" : Add the directory to the list of directories to be searched for  "-l" .) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 161.5750393700786844 Td
+( *  "-Wall" : This option enables most of the commonly used warning messages.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 138.8978740157479024 Td
+( *  "-g" : Produce debugging information in the operating system's native format.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 1 de 8) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 3013
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(Examples:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+( 1. Compile a simple C program:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(    bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(     "gcc hello.c -o hello" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+( 2. Compile with debugging information:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(    bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(     "gcc -g myprogram.c -o myprogram" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+( 3. Compile multiple files:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(    bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(     "gcc main.c util.c -o myapp" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+( 4. Compile and link against a library:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(     "gcc myprog.c -o myprog -lmylib" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(This is just a basic overview. There are many more options and configurations that you can use) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(with  "gcc" . For comprehensive details, refer to the actual  "man"  page on your system by) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(typing  "man gcc"  in the terminal or consult the official GCC documentation.) Tj
+ET
+0.78 g
+56.6929133858267775 189.9214960629920199 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(P 1:) Tj
+ET
+0.78 g
+56.6929133858267775 167.2443307086613231 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 2 de 8) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 3444
+>>
+stream
+0.5670000000000001 w
+0 G
+0.78 g
+56.6929133858267775 802.2049606299211746 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(more more detials i want to be pro) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(Certainly! To become proficient with  "gcc" , you need to understand a wide range of its features) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(and intricacies. Here's a more detailed overview of  "gcc" :) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(INTERMEDIATE OPTIONS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+( 1. Optimization Levels:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(    *  "-O1" ,  "-O2" ,  "-O3" : These are optimization flags.  "-O1"  does some basic optimizations, ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+("-O2"  does more, and  "-O3"  tries to optimize even further. Note that higher optimization levels) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(can make debugging harder.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(    *  "-Os" : Optimize for size. This will try to make the compiled code as small as possible.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+( 2. Warning Options:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(    *  "-Wextra" : Enables some more useful warning messages in addition to those that  "-Wall" ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(enables.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(    *  "-Werror" : Treat all warning messages as errors.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    *  "-pedantic" : Issue all the warnings demanded by strict compliance with the standard.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+( 3. Linking:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(    *  "-shared" : Produce a shared object \(used for creating libraries\).) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(    *  "-static" : Link against static libraries if possible.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+( 4. Preprocessor Options:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(    ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 3 de 8) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 3397
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(    *  "-DNAME=DEF" : This defines a preprocessor macro.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+( 5. Language Standards:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(    *  "-std=c11"  or  "-std=c++11" : Specify the language standard. Replace  "c11"  with your) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(desired C standard \(like  "c99" \) or  "c++11"  with your desired C++ standard \(like  "c++14" , ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+("c++17" \).) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+( 6. Architecture and Code Generation:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(    *  "-march=ARCH" : Generate code for a specific machine architecture, e.g.,  "core2" , ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+("athlon" .) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(    *  "-mtune=ARCH" : Optimize the generated code for a specific machine architecture, but) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(produce code that can run on any.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(    *  "-fPIC" : Generate position-independent code, typically used when building shared libraries.) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(ADVANCED:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+( 1. Link-Time Optimization \(LTO\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(    *  "-flto" : This performs optimizations at link-time, potentially allowing for more aggressive) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(optimizations.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+( 2. Machine-Specific Options: GCC can generate specialized code that takes advantage of) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(specific processor features \(like SSE or AVX on Intel processors\).) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+( 3. Inline Assembly: GCC allows embedding assembly within C/C++ code using the  "asm" ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(keyword.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 4 de 8) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 3214
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+( 4. Plugins: GCC supports plugins, which can extend or modify its behavior.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+( 5. Cross Compilation: GCC can be used as a cross-compiler, allowing, for instance, the) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(compilation of ARM binaries on an x86 machine.) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(DEBUGGING AND PROFILING:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+( *  "-pg" : Generate information for profiling with  "gprof" .) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+( *  "-fprofile-arcs"  and  "-ftest-coverage" : Used for generating test coverage data.) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(TIPS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+( 1. Read the Manual: GCC's man page and official documentation are comprehensive. It's a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(good idea to get acquainted with the official docs.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+( 2. Experiment: Create small test programs and try compiling them with various flags.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+( 3. Stay Updated: GCC is under active development. New versions might have new features,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(optimizations, and bug fixes.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(Lastly, being a pro isn't just about knowing the compiler's options but understanding when and) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(why to use them. Familiarize yourself with the principles of compilation, linking, and the C and) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(C++ language standards. It's also beneficial to understand the target platform's architecture.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(I would also recommend picking up some books on C/C++ development, compiler theory, and) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(computer architecture. The combination of theoretical knowledge and hands-on practice will help) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(you master the use of  "gcc"  and the intricacies of compilation.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 5 de 8) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 2930
+>>
+stream
+0.5670000000000001 w
+0 G
+0.78 g
+56.6929133858267775 802.2049606299211746 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(P 2:) Tj
+ET
+0.78 g
+56.6929133858267775 779.5277952755905062 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 756.8506299212598378 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(gcc with compilation steps) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(When you invoke  "gcc"  to compile a program, several steps occur behind the scenes to) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(transform your source code into an executable program. Here's a breakdown of the compilation) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(steps:) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(1. PREPROCESSING:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(The preprocessor handles directives like  "#include" ,  "#define" , and  "#ifdef" . The output from) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(this step is a single intermediate file with all the  "#include"  files expanded, macros replaced,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(and conditional code included or excluded based on any  "#ifdef" ,  "#ifndef" , etc.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(Command to run only preprocessing:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+( "gcc -E source.c -o source.i" ) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(2. COMPILATION:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(The actual compilation step takes the output from the preprocessor and compiles it into) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(assembly language specific to the architecture of the target machine.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(Command to compile without assembling:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(bash) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 6 de 8) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 2930
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+( "gcc -S source.i -o source.s" ) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(3. ASSEMBLY:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(The assembly code generated in the previous step is converted into machine code by the) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(assembler, producing an object file. This machine code is still not runnable as a standalone) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(program because it might have dependencies on functions from other files or libraries that need) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(to be linked.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(Command to assemble the source without linking:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+( "gcc -c source.s -o source.o" ) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(4. LINKING:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(The linker combines the object files generated in the assembly step with any necessary libraries) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(to produce a final executable. It resolves any external function or variable references by finding) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(their correct locations and patches the object code to use the correct addresses.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(Command to link object files into an executable:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+( "gcc source.o -o executable" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(Typically, you might just use  "gcc source.c -o executable" , and all these steps will be performed) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(automatically in sequence. However, understanding the individual steps gives you a clearer) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 7 de 8) Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 457
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(insight into the compilation process and allows you to better diagnose and resolve any issues) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(that may arise during development.) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 8 de 8) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R ]
+/Count 8
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+27 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+29 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+30 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+31 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+32 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 19 0 R
+/F2 20 0 R
+/F3 21 0 R
+/F4 22 0 R
+/F5 23 0 R
+/F6 24 0 R
+/F7 25 0 R
+/F8 26 0 R
+/F9 27 0 R
+/F10 28 0 R
+/F11 29 0 R
+/F12 30 0 R
+/F13 31 0 R
+/F14 32 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+
+33 0 obj
+<<
+/Type /Outlines
+/First 34 0 R
+/Last 35 0 R
+/Count 2
+>> 
+endobj
+
+34 0 obj
+<<
+/Title (P 1:
+1 / 1
+more more detials i want to be pro)
+/Parent 33 0 R
+/Next 35 0 R
+/Dest [7 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+35 0 obj
+<<
+/Title (P 2:
+1 / 1
+gcc with compilation steps)
+/Parent 33 0 R
+/Prev 34 0 R
+/Dest [13 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+36 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20231006115721+03'00')
+>>
+endobj
+37 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+/Outlines 33 0 R
+>>
+endobj
+xref
+0 38
+0000000000 65535 f 
+0000024996 00000 n 
+0000026864 00000 n 
+0000000015 00000 n 
+0000000376 00000 n 
+0000004275 00000 n 
+0000004412 00000 n 
+0000007477 00000 n 
+0000007614 00000 n 
+0000011110 00000 n 
+0000011248 00000 n 
+0000014698 00000 n 
+0000014837 00000 n 
+0000018104 00000 n 
+0000018243 00000 n 
+0000021226 00000 n 
+0000021365 00000 n 
+0000024348 00000 n 
+0000024487 00000 n 
+0000025099 00000 n 
+0000025225 00000 n 
+0000025356 00000 n 
+0000025490 00000 n 
+0000025628 00000 n 
+0000025752 00000 n 
+0000025881 00000 n 
+0000026013 00000 n 
+0000026149 00000 n 
+0000026277 00000 n 
+0000026404 00000 n 
+0000026533 00000 n 
+0000026666 00000 n 
+0000026768 00000 n 
+0000027118 00000 n 
+0000027194 00000 n 
+0000027345 00000 n 
+0000027489 00000 n 
+0000027575 00000 n 
+trailer
+<<
+/Size 38
+/Root 37 0 R
+/Info 36 0 R
+/ID [ <404996A3DE78541127559D2FC1C77E7C> <404996A3DE78541127559D2FC1C77E7C> ]
+>>
+startxref
+27696
+%%EOF

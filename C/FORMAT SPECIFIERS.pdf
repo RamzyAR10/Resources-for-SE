@@ -1,0 +1,1974 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Annots [
+<</Type /Annot /Subtype /Link /Rect [56.6929133858267775 792.5570866141731585 242.4529133858268324 783.3570866141732267] /Border [0 0 0] /A <</S /URI /URI (https://www.compayz.com/?utm_source=download-gpt) >> >>
+]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4224
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Chat-GPT PDF by CompayZ - www.compayz.com) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 771.0238582677164914 Td
+(Usuário: User) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 756.8506299212598378 Td
+(1 / 1) Tj
+T* (When using strings, the computer creates an array of chars, containing the same) Tj
+T* (number of cells as the length of the string + 1, and then fills the array with the) Tj
+T* (ASCII codes of each letter of the string. In the extra cell \(the last one\) the) Tj
+T* (computer will store the ASCII code of the special character ‘\\0) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 742.6774015748030706 Td
+(Data: Friday, October 6, 2023 at 6:13:11 PM - \(Africa/Cairo\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 728.5041732283464171 Td
+(URL: https://chat.openai.com/c/d40a6067-bf31-49dd-8f3b-e5c7cf3d648a) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 637.7955118110235162 Td
+(You're discussing how strings are implemented in the C programming language \(and some other) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 615.1183464566928478 Td
+(languages that borrow from C conventions\).) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 569.7640157480313974 Td
+(In C, a string is represented as an array of characters \(chars\), and the string is terminated by a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 547.086850393700729 Td
+(special character known as the null terminator, represented as '\\0'. This null terminator is used to) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 524.4096850393700606 Td
+(denote the end of the string, and it's crucial because C doesn't inherently know the length of) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 501.7325196850393354 Td
+(arrays – it just knows where they start. By convention, when a C function encounters this '\\0') Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 479.0553543307086102 Td
+(character, it knows the string has ended.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 433.7010236220471597 Td
+(To clarify:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 388.3466929133857661 Td
+( 1. A string like "hello" would be stored in memory as 'h', 'e', 'l', 'l', 'o', '\\0'.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 365.6695275590550409 Td
+( 2. If you tried to determine the length of the string, it would return 5, even though there are 6) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 342.9923622047243725 Td
+(elements in the underlying array \(the 5 characters of "hello" plus the null terminator\).) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 320.3151968503935905 Td
+( 3. The ASCII value of '\\0' is 0. This is distinct from the ASCII value of the character '0', which is) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 297.6380314960629221 Td
+(48.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 252.2837007874014716 Td
+(Always remember when working with C strings to account for this null terminator. If you're) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 229.6065354330708033 Td
+(allocating memory for a string, for example, you need to allocate enough space for all the) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 206.9293700787401349 Td
+(characters in the string, plus an additional space for the '\\0' terminator.) Tj
+ET
+0.78 g
+56.6929133858267775 178.5829133858266857 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 161.5750393700786844 Td
+(P 1:) Tj
+ET
+0.78 g
+56.6929133858267775 155.9057480314959605 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 1 de 10) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 3273
+>>
+stream
+0.5670000000000001 w
+0 G
+0.78 g
+56.6929133858267775 802.2049606299211746 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(what is %d in c) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(In the C programming language,  "%d"  is a format specifier used with functions like  "printf\(\)" ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(and  "scanf\(\)"  to specify that an integer value should be taken as input or printed as output.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+( 1. With  "printf\(\)" : When you want to print an integer value.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(    c) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(    ) Tj
+ET
+0. g
+85.0393700787401627 575.4333070866141497 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 558.42543307086612 Td
+(int number = 42;) Tj
+ET
+0. g
+85.0393700787401627 552.7561417322833677 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 535.748267716535338 Td
+(    printf\("The answer is %d.", number\);) Tj
+ET
+0. g
+85.0393700787401627 530.0789763779526993 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 513.0711023622046696 Td
+(    ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(    This would output:  "The answer is 42." ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+( 2. With  "scanf\(\)" : When you want to read an integer value.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    c) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(    ) Tj
+ET
+0. g
+85.0393700787401627 280.6301574803148924 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 263.6222834645668627 Td
+(int number;) Tj
+ET
+0. g
+85.0393700787401627 257.9529921259841672 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 240.9451181102361943 Td
+(    printf\("Enter a number: "\);) Tj
+ET
+0. g
+85.0393700787401627 235.2758267716534419 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 218.2679527559054122 Td
+(    scanf\("%d", &number\);) Tj
+ET
+0. g
+85.0393700787401627 212.5986614173227451 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 195.5907874015747439 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 2 de 10) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 3326
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(    Here, if the user inputs  "42"  and presses Enter, the variable  "number"  will now contain the) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(integer value  "42" .) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(In both cases,  "%d"  serves as a placeholder for an integer value. When used with  "printf\(\)" ,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(the value replaces the  "%d" . When used with  "scanf\(\)" , it tells the function to expect an integer) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(input and store it in the provided variable address \(using the  "&"  operator to get the address\).) Tj
+ET
+0.78 g
+56.6929133858267775 620.7876377952754865 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(P 2:) Tj
+ET
+0.78 g
+56.6929133858267775 598.1104724409448181 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 575.4333070866141497 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(please explain all formate specifier and variable in c and there size and there working with) Tj
+ET
+0.78 g
+56.6929133858267775 552.7561417322833677 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(sizeof\(\),print\(\),puts\(\),putchar with all details and links for explains) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(Sure, I can provide an overview of the most commonly used format specifiers and variables in C.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(This won't be exhaustive because C supports a wide range of specifiers, especially when you) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(get into C99 and other extensions.) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(FORMAT SPECIFIERS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+( 1.  %d or %i: Represents an integer.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+( 2.  %ld: Represents a long integer.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+( 3.  %c: Represents a character.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+( 4.  %s: Represents a string.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+( 5.  %f: Represents a floating-point number.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 3 de 10) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 2298
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+( 6.  %lf: Represents a double precision floating point number.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+( 7.  %u: Represents an unsigned integer.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+( 8.  %lu: Represents an unsigned long integer.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+( 9.  %x or %X: Represents hexadecimal.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+( 10. %o: Represents octal.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+( 11. %p: Represents a pointer.) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(VARIABLE TYPES AND #####CODE#####<BEGINCODE>SIZEOF\(\)#####CODE#####:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(You can use  "sizeof\(\)"  to determine the size in bytes of a variable or type:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(c) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+( "printf\("%zu", sizeof\(int\)\); // prints size of int in bytes, typically 4 on most platforms." ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+( 1. int: Integer. Typically 4 bytes on most platforms.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+( 2. long int or long: Longer integer than the regular int. Usually 4 or 8 bytes.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+( 3. char: Character. Always 1 byte.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+( 4. float: Floating point number. Typically 4 bytes.) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 4 de 10) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 2959
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+( 5. double: Double precision floating point. Typically 8 bytes.) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(FUNCTIONS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+( 1. printf\(\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(    The  "printf\(\)"  function is used to print formatted output.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(    c) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(    ) Tj
+ET
+0. g
+85.0393700787401627 530.0789763779526993 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 513.0711023622046696 Td
+(int num = 5;) Tj
+ET
+0. g
+85.0393700787401627 507.4018110236219741 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 490.3939370078739444 Td
+(    printf\("Number is %d", num\);) Tj
+ET
+0. g
+85.0393700787401627 484.7246456692912489 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 467.716771653543276 Td
+(    ) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+( 2. sizeof\(\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    The  "sizeof\(\)"  operator returns the size of the variable or datatype in bytes.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(    c) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(     "printf\("%zu", sizeof\(int\)\); // prints the size of int in bytes." ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+( 3. puts\(\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(    The  "puts\(\)"  function is used to print a string followed by a newline.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(    ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 5 de 10) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 3252
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(    c) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(     "puts\("Hello, World!"\);" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+( 4. putchar\(\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(    The  "putchar\(\)"  function is used to print a single character.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(    c) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(     "putchar\('A'\);" ) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(LINKS FOR FURTHER EXPLANATIONS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+( 1. Official C documentation: This would be the definitive source but can be hard to navigate for) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(beginners.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+( 2. Cplusplus.com: A good resource that has explanations for both C and C++.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(    * printf [http://www.cplusplus.com/reference/cstdio/printf/]) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(    * puts [http://www.cplusplus.com/reference/cstdio/puts/]) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    * putchar [http://www.cplusplus.com/reference/cstdio/putchar/]) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+( 3. TutorialsPoint: Another decent resource for beginners.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(    * C Library Functions [https://www.tutorialspoint.com/c_standard_library/]) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(Note: Always ensure that you refer to platform-specific documentation or the official) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(documentation if you're concerned about portability or if you're using features specific to a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(certain compiler or platform.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 6 de 10) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 3032
+>>
+stream
+0.5670000000000001 w
+0 G
+0.78 g
+56.6929133858267775 802.2049606299211746 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(P 3:) Tj
+ET
+0.78 g
+56.6929133858267775 779.5277952755905062 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 756.8506299212598378 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(what about specifirs for decimal and short) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(Certainly, let's cover those format specifiers as well:) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(FORMAT SPECIFIERS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+( 1. %e, %E: Represents a floating-point number in exponential notation. For instance, the) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(number 312.56 might be represented as  "3.125600e+02"  using the  "%e"  format specifier.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+( 2. %g, %G: Used for floating-point numbers. It uses either normal or exponential notation based) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(on the value and precision. The  "%g"  uses the shorter of  "%e"  or  "%f"  and  "%G"  uses the) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(shorter of  "%E"  or  "%f" .) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+( 3. %h: This is used as a prefix to mean "short" for integer types.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(    * %hd: Represents a  "short int" .) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(    * %hu: Represents an  "unsigned short int" .) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    * %hx: Represents a  "short int"  in hexadecimal.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(    * %ho: Represents a  "short int"  in octal.) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(EXAMPLES:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(For a  "short int" :) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(c) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 7 de 10) Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 2131
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+0. g
+85.0393700787401627 756.8506299212598378 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 739.8427559055118081 Td
+(short int sh = 42;) Tj
+ET
+0. g
+85.0393700787401627 734.1734645669290558 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 717.1655905511811397 Td
+(printf\("%hd", sh\); // prints 42) Tj
+ET
+0. g
+85.0393700787401627 711.4962992125983874 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(For a  "unsigned short int" :) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(c) Tj
+ET
+1. g
+0. g
+85.0393700787401627 507.4018110236219741 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 490.3939370078739444 Td
+(unsigned short int ush = 42;) Tj
+ET
+0. g
+85.0393700787401627 484.7246456692912489 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 467.716771653543276 Td
+(printf\("%hu", ush\); // prints 42) Tj
+ET
+0. g
+85.0393700787401627 462.0474803149605805 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(For a  "short int"  in hexadecimal:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(c) Tj
+ET
+1. g
+0. g
+85.0393700787401627 257.9529921259841672 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 240.9451181102361943 Td
+(short int hex_val = 0x2a; //42 in decimal) Tj
+ET
+0. g
+85.0393700787401627 235.2758267716534419 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 218.2679527559054122 Td
+(printf\("%hx", hex_val\); // prints 2a) Tj
+ET
+0. g
+85.0393700787401627 212.5986614173227451 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 8 de 10) Tj
+ET
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 20 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 2096
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(For a  "short int"  in octal:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(c) Tj
+ET
+1. g
+0. g
+85.0393700787401627 666.1419685039369369 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 649.1340944881889072 Td
+(short int oct_val = 052; //42 in decimal) Tj
+ET
+0. g
+85.0393700787401627 643.4648031496062686 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 626.4569291338582389 Td
+(printf\("%ho", oct_val\); // prints 52) Tj
+ET
+0. g
+85.0393700787401627 620.7876377952754865 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(For a floating-point number in exponential notation:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(c) Tj
+ET
+1. g
+0. g
+85.0393700787401627 416.69314960629913 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 399.6852755905511003 Td
+(float f = 312.56;) Tj
+ET
+0. g
+85.0393700787401627 394.0159842519684048 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 377.0081102362204319 Td
+(printf\("%e", f\); // might print 3.125600e+02) Tj
+ET
+0. g
+85.0393700787401627 371.3388188976377364 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(For a floating-point number using  "%g" :) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(c) Tj
+ET
+1. g
+0. g
+85.0393700787401627 167.2443307086613231 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 150.2364566929132934 Td
+(float g = 312.56;) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 9 de 10) Tj
+ET
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 1056
+>>
+stream
+0.5670000000000001 w
+0 G
+0. g
+85.0393700787401627 802.2049606299211746 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 785.1970866141732586 Td
+(printf\("%g", g\); // might print 312.56 or use exponential notation) Tj
+ET
+0. g
+85.0393700787401627 779.5277952755905062 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 762.5199212598424765 Td
+(based on value and precision) Tj
+ET
+0. g
+85.0393700787401627 756.8506299212598378 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(Remember that these specifiers can vary slightly based on your platform and C standard you're) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(working with, so always refer to your platform's or compiler's documentation when in doubt.) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 10 de 10) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R ]
+/Count 10
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+27 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+29 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+30 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+31 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+32 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+33 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+34 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+35 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+36 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 23 0 R
+/F2 24 0 R
+/F3 25 0 R
+/F4 26 0 R
+/F5 27 0 R
+/F6 28 0 R
+/F7 29 0 R
+/F8 30 0 R
+/F9 31 0 R
+/F10 32 0 R
+/F11 33 0 R
+/F12 34 0 R
+/F13 35 0 R
+/F14 36 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+
+37 0 obj
+<<
+/Type /Outlines
+/First 38 0 R
+/Last 40 0 R
+/Count 3
+>> 
+endobj
+
+38 0 obj
+<<
+/Title (P 1:
+1 / 1
+what is %d in c)
+/Parent 37 0 R
+/Next 39 0 R
+/Dest [5 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+39 0 obj
+<<
+/Title (P 2:
+1 / 1
+please explain all formate specifier and variable in c and there size and there working with sizeof\(\),print\(\),puts\(\),putchar with all details and links for explains)
+/Parent 37 0 R
+/Prev 38 0 R
+/Next 40 0 R
+/Dest [7 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+40 0 obj
+<<
+/Title (P 3:
+1 / 1
+what about specifirs for decimal and short)
+/Parent 37 0 R
+/Prev 39 0 R
+/Dest [15 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+41 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20231006181311+03'00')
+>>
+endobj
+42 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+/Outlines 37 0 R
+>>
+endobj
+xref
+0 43
+0000000000 65535 f 
+0000029796 00000 n 
+0000031679 00000 n 
+0000000015 00000 n 
+0000000376 00000 n 
+0000004652 00000 n 
+0000004789 00000 n 
+0000008114 00000 n 
+0000008251 00000 n 
+0000011629 00000 n 
+0000011767 00000 n 
+0000014118 00000 n 
+0000014257 00000 n 
+0000017269 00000 n 
+0000017408 00000 n 
+0000020713 00000 n 
+0000020852 00000 n 
+0000023937 00000 n 
+0000024076 00000 n 
+0000026260 00000 n 
+0000026399 00000 n 
+0000028548 00000 n 
+0000028687 00000 n 
+0000029914 00000 n 
+0000030040 00000 n 
+0000030171 00000 n 
+0000030305 00000 n 
+0000030443 00000 n 
+0000030567 00000 n 
+0000030696 00000 n 
+0000030828 00000 n 
+0000030964 00000 n 
+0000031092 00000 n 
+0000031219 00000 n 
+0000031348 00000 n 
+0000031481 00000 n 
+0000031583 00000 n 
+0000031933 00000 n 
+0000032009 00000 n 
+0000032141 00000 n 
+0000032441 00000 n 
+0000032601 00000 n 
+0000032687 00000 n 
+trailer
+<<
+/Size 43
+/Root 42 0 R
+/Info 41 0 R
+/ID [ <FEFFAA3214E5BE238A6829D53ED45331> <FEFFAA3214E5BE238A6829D53ED45331> ]
+>>
+startxref
+32808
+%%EOF
