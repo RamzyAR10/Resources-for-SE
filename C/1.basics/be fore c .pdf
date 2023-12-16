@@ -1,0 +1,1388 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Annots [
+<</Type /Annot /Subtype /Link /Rect [56.6929133858267775 792.5570866141731585 242.4529133858268324 783.3570866141732267] /Border [0 0 0] /A <</S /URI /URI (https://www.compayz.com/?utm_source=download-gpt) >> >>
+]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 3924
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Chat-GPT PDF by CompayZ - www.compayz.com) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 771.0238582677164914 Td
+(Usuário: User) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 756.8506299212598378 Td
+(1 / 1) Tj
+T* (what is the diff between compiler and interprater) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 742.6774015748030706 Td
+(Data: Monday, October 9, 2023 at 2:51:50 PM - \(Africa/Cairo\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 728.5041732283464171 Td
+(URL: https://chat.openai.com/c/e4a5ac78-9adf-490b-94a7-eb0b2d4d3d9f) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 637.7955118110235162 Td
+(Both compilers and interpreters are tools used to process source code written in high-level) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 615.1183464566928478 Td
+(programming languages. They serve the common purpose of converting high-level source code) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 592.4411811023621794 Td
+(into executable code or intermediate representations, but they operate in different ways. Here) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 569.7640157480313974 Td
+(are the key differences between the two:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 524.4096850393700606 Td
+( 1. Execution Process:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 501.7325196850393354 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 479.0553543307086102 Td
+(    * Compiler: It takes the entire program and converts it into object code \(binary form\), which is) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 456.378188976377885 Td
+(then executed by the machine. The compilation and execution are two separate steps.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 433.7010236220471597 Td
+(    * Interpreter: It reads the program one line at a time, converting each line to machine code) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 411.0238582677164914 Td
+(and executing it immediately.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 365.6695275590550409 Td
+( 2. Output:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 342.9923622047243725 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 320.3151968503935905 Td
+(    * Compiler: Produces an intermediate object code or binary code \(like an executable file\),) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 297.6380314960629221 Td
+(which can be executed independently.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 274.9608661417322537 Td
+(    * Interpreter: Doesn't produce any intermediate code. The source code is required every time) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 252.2837007874014716 Td
+(you want to execute the program.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 206.9293700787401349 Td
+( 3. Error Detection:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 184.2522047244093528 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 161.5750393700786844 Td
+(    * Compiler: Checks the entire program for errors and lists them after the compilation process.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 138.8978740157479024 Td
+(Execution will not occur if there are errors.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 1 de 6) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 4025
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(    * Interpreter: Finds and reports errors line-by-line. If there's an error on line 10, you won't) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(know about an error on line 20 until you've fixed the error on line 10 and re-run the program.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+( 4. Performance:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(    * Compiler: Generally faster in execution since the source code is translated to machine code) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(all at once, and the resulting binary is optimized.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(    * Interpreter: Can be slower since each line of the source code is being translated and) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(executed one by one.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+( 5. Memory Requirement:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(    * Compiler: Often requires more memory during the compilation phase, as it needs to handle) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(the entire program at once.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(    * Interpreter: Might require less memory as it processes the program one line at a time.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+( 6. Portability:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(    * Compiler: Once a program is compiled for a specific platform, the resulting binary code is) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(platform-specific. To run the program on a different platform, you'd need to recompile it.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    * Interpreter: The source code is typically more portable since you only need the interpreter on) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(the target machine. If there's an interpreter for a specific platform, you can run the code on that) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(platform without modification.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+( 7. Use Cases:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(    * Compiler: Languages like C, C++, and Fortran use compilers.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(    * Interpreter: Languages like Python, Ruby, and PHP use interpreters. However, some) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(languages can use a combination \(like Java, which uses a compiler to produce bytecode and) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 2 de 6) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 3906
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(then an interpreter or Just-In-Time compiler in the JVM to execute it\).) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(In modern software development, the strict boundary between compilers and interpreters has) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(become somewhat blurred. There are hybrid systems that combine features of both, and many) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(programming languages offer both compiled and interpreted implementations.) Tj
+ET
+0.78 g
+56.6929133858267775 666.1419685039369369 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(P 1:) Tj
+ET
+0.78 g
+56.6929133858267775 643.4648031496062686 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 620.7876377952754865 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(diff between ide and code editor and txt editor) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(Certainly! IDE \(Integrated Development Environment\), code editor, and text editor are all tools) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(used to write and modify code or text. Here are their key differences:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+( 1. IDE \(Integrated Development Environment\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(    * Features: Provides comprehensive facilities for software development, including code) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(editing, debugging, compiling/building, version control, and often simulation or emulation.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(    * Use Cases: Ideal for larger projects or when you need deep integration with specific tools or) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(frameworks.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    * Examples: Eclipse, IntelliJ IDEA, Microsoft Visual Studio, PyCharm, NetBeans.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(    * Pros: Facilitates the software development process by integrating several tools into one) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(environment.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(    * Cons: Can be more resource-intensive and might come with a steeper learning curve due to) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(its numerous features.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+( 2. Code Editor:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(    * Features: Focuses on writing and editing code with features like syntax highlighting, code) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 3 de 6) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 4212
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(folding, and auto-completion. May also offer integrated terminal, plugins/extensions, and basic) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(debugging.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(    * Use Cases: Suitable for individual files or smaller projects and when you need a lightweight) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(tool with more flexibility.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(    * Examples: Visual Studio Code, Sublime Text, Atom.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(    * Pros: Generally lightweight and faster to start, highly customizable via plugins or extensions.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(    * Cons: Lacks the full suite of integrated tools an IDE offers \(though plugins can often close) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(this gap significantly\).) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+( 3. Text Editor:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(    ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(    * Features: Designed for general text editing. While some may have syntax highlighting, they) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(don't usually come with advanced code-specific features out of the box.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(    * Use Cases: Best for writing and editing plain text documents, config files, or notes, and) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(when you don't need coding-specific tools.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(    * Examples: Notepad \(Windows\), TextEdit \(macOS\), nano, and vim \(UNIX/Linux\).) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(    * Pros: Extremely lightweight and quick to load, no unnecessary features for plain text tasks.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(    * Cons: Lacks advanced features for coding, though some \(like vim\) can be highly customized) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(with plugins.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(In essence, the primary difference among the three is their feature set:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+( * A text editor is the simplest, designed mainly for editing plain text.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+( * A code editor is a step up, optimized for writing code but without the full suite of development) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(tools.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+( * An IDE is the most feature-rich, providing an integrated set of tools to facilitate a more) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(comprehensive development workflow.) Tj
+ET
+0.78 g
+56.6929133858267775 167.2443307086613231 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(P 2:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 4 de 6) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 4020
+>>
+stream
+0.5670000000000001 w
+0 G
+0.78 g
+56.6929133858267775 802.2049606299211746 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 779.5277952755905062 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(what is meaning of c is prosuder programming) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(It seems like you're referring to the concept that "C is a procedural programming language.") Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(Let's break that down:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+( 1. Procedural Programming: This is a programming paradigm that emphasizes the sequence of) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(instructions to be executed. It's based on the concept of procedure calls, where you can define) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(code as reusable functions or procedures. These procedures can be invoked/called in sequence,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(which allows for modular and structured code. Procedural programming is also known as) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(imperative programming since it provides a series of imperative steps \(or commands\) that the) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(computer must perform.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+( 2. C Language: C is one of the most widely used programming languages and was developed) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(in the early 1970s. It is commonly referred to as a procedural language because it primarily) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(supports procedural programming principles. In C, you write a sequence of statements, and you) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(group these statements into functions or procedures to create modular and organized code.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(That said, while C is fundamentally procedural, it does not prevent a programmer from writing in) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(other paradigms. For instance, while C does not directly support object-oriented programming) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(like C++ does, a programmer can still use certain principles of object-oriented design by) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(manually implementing them in C.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(So, when someone says "C is a procedural programming language," they mean that C primarily) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(supports and encourages a style of programming where problems are broken down into) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(procedures or functions, and the flow of the program is determined by the sequence in which) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(these procedures are called.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 5 de 6) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 132
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+526.2935433070865656 28.3464566929134207 Td
+(Pág: 6 de 6) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R ]
+/Count 6
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+27 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 15 0 R
+/F2 16 0 R
+/F3 17 0 R
+/F4 18 0 R
+/F5 19 0 R
+/F6 20 0 R
+/F7 21 0 R
+/F8 22 0 R
+/F9 23 0 R
+/F10 24 0 R
+/F11 25 0 R
+/F12 26 0 R
+/F13 27 0 R
+/F14 28 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+
+29 0 obj
+<<
+/Type /Outlines
+/First 30 0 R
+/Last 31 0 R
+/Count 2
+>> 
+endobj
+
+30 0 obj
+<<
+/Title (P 1:
+1 / 1
+diff between ide and code editor and txt editor)
+/Parent 29 0 R
+/Next 31 0 R
+/Dest [7 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+31 0 obj
+<<
+/Title (P 2:
+1 / 1
+what is meaning of c is prosuder programming)
+/Parent 29 0 R
+/Prev 30 0 R
+/Dest [11 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+32 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20231009145150+03'00')
+>>
+endobj
+33 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+/Outlines 29 0 R
+>>
+endobj
+xref
+0 34
+0000000000 65535 f 
+0000021599 00000 n 
+0000023453 00000 n 
+0000000015 00000 n 
+0000000376 00000 n 
+0000004352 00000 n 
+0000004489 00000 n 
+0000008566 00000 n 
+0000008703 00000 n 
+0000012661 00000 n 
+0000012799 00000 n 
+0000017064 00000 n 
+0000017203 00000 n 
+0000021276 00000 n 
+0000021415 00000 n 
+0000021688 00000 n 
+0000021814 00000 n 
+0000021945 00000 n 
+0000022079 00000 n 
+0000022217 00000 n 
+0000022341 00000 n 
+0000022470 00000 n 
+0000022602 00000 n 
+0000022738 00000 n 
+0000022866 00000 n 
+0000022993 00000 n 
+0000023122 00000 n 
+0000023255 00000 n 
+0000023357 00000 n 
+0000023707 00000 n 
+0000023783 00000 n 
+0000023947 00000 n 
+0000024109 00000 n 
+0000024195 00000 n 
+trailer
+<<
+/Size 34
+/Root 33 0 R
+/Info 32 0 R
+/ID [ <0A8EBE9C0512ADBA203816111FCBFC1B> <0A8EBE9C0512ADBA203816111FCBFC1B> ]
+>>
+startxref
+24316
+%%EOF

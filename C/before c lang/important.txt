@@ -1,0 +1,22 @@
+The .NET SDK is a set of libraries and tools for developing and running .NET applications. It includes the MSBuild build engine, the Roslyn (C# and Visual Basic) compiler, and the F# compiler. Most commands are run by using the dotnet command. The CLI tools can be used for local development and continuous integration.
+
+=============================================================================
+code editor vs editor vs compiler vs interpreter vs IDE
+
+editor the place that you put code on it find only the syntax error not ran time errors
+
+IDE ===> environment of coding includ ( compiler - interpreter - code editor - else) visual studio & code blocks no need to install sdk
+
+code editor ==> only (editor - compiler - interpreter) no more futures more lite   vs code need to install sdk
+====================================================================================
+in farst run  code :
+
+compiler ===> review all the code first than compile it to machien code if there an run time error he stop and didn't compile the code 
+
+interpreter ====> more faster compile first and if he face any error he stop compiling   and show whare is the error in the code
+
+in secound run if you did not change the code :
+
+compiler ===> faster : show you the result faster because he build it in the first run ------ compiler give to computer all structure that pc need and make it save acopy of it if run again same cod you did not need compiler again 
+
+interpreter ====> slow : the result slower becouse he rebuild the code again every time you run it ------ interepreter did not leave a copy fo stucture to the pc ,pc need interpreted in every run (python) 
